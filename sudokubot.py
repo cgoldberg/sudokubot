@@ -2,7 +2,7 @@
 # Corey Goldberg - 2011
 
 
-"""selenium webdriver browser-bot that can solve sudoku puzzles."""
+"""selenium webdriver browser-bot that solves sudoku puzzles."""
 
 
 import time
