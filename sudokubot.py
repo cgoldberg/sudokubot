@@ -26,8 +26,12 @@ class SudokuBot(object):
     def __init__(self, game_level=4, pause=0.0):
         self.game_level = game_level
         self.pause = pause
-        self.puzzles_solved = 0
-        self.solution = None
+        self._puzzles_solved = 0
+        self._solution = None
+    
+    @property
+    def puzzles_solved(self):
+        return self._puzzles_solved
         
     def play(self):
         browser = webdriver.Firefox()
@@ -43,14 +47,14 @@ class SudokuBot(object):
         if self.pause:
             time.sleep(self.pause)
         browser.quit()
-        self.solution = solution
-        self.puzzles_solved += 1
+        self._solution = solution
+        self._puzzles_solved += 1
         
     def display_solution(self):
-        if self.solution is None:
+        if self._solution is None:
             raise Exception('no puzzles solved yet')
         else:
-            sudoku.display(self.solution)
+            sudoku.display(self._solution)
 
     
 if __name__ == '__main__':
