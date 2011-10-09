@@ -1,14 +1,15 @@
+=========
 sudokubot
 =========
 
 selenium webdriver browser-bot that can solve sudoku puzzles.
 
-
+------------
 Requirements
 ------------
-    Python 2
-    selenium client bindings::
+ * Python 2
+ * Selenium WebDriver client bindings::
     
-        pip install selenium
+    pip install selenium
 
 
