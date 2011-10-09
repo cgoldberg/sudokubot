@@ -46,7 +46,6 @@ class SudokuBot(object):
         self.solution = solution
         self.puzzles_solved += 1
         
-        
     def display_solution(self):
         if self.solution is None:
             raise Exception('no puzzles solved yet')
