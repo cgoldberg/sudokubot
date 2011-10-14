@@ -7,7 +7,7 @@
 
 import time
 from selenium import webdriver
-import sudoku
+import _sudoku as sudoku
 
 
 GAME_LEVEL = 4  # evil
