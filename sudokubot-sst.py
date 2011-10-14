@@ -2,7 +2,11 @@
 # Corey Goldberg - 2011
 
 
-"""SST browser-bot that solves sudoku puzzles."""
+"""
+SST browser-bot that solves sudoku puzzles.
+
+see: https://launchpad.net/selenium-simple-test
+"""
 
 
 from sst.actions import *
