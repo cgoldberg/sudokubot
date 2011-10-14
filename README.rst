@@ -17,12 +17,15 @@ Requirements
 Instructions
 ------------
 
-pure selenium webdriver version::
-
+pure Selenium WebDriver version::
+    
+    $ cd sudokubot
     $ python sudokubot.py
 
-SST framework version::
+SST framework version.
+copy `sudokubot-sst.py` and `_sudoku.py` to your SST `/tests` directory and invoke::
 
+    $ cd selenium-simple-test
     $ ./sst-run sudokubot-sst
 
 ----
@@ -34,4 +37,3 @@ Info
  * http://www.websudoku.com/
  * http://norvig.com/sudoku.html
  * http://en.wikipedia.org/wiki/Sudoku
- 

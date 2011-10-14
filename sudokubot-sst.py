@@ -10,7 +10,6 @@ see: https://launchpad.net/selenium-simple-test
 
 
 from sst.actions import *
-import time
 import _sudoku as sudoku
 
 
