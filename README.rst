@@ -23,7 +23,7 @@ pure selenium webdriver version::
 
 SST framework version::
 
-    $ ./sst-run sudokubot-sst.py
+    $ ./sst-run sudokubot-sst
 
 ----
 Info
