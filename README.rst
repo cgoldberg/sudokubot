@@ -23,6 +23,7 @@ pure Selenium WebDriver version::
     $ python sudokubot.py
 
 SST framework version.
+
 copy `sudokubot-sst.py` and `_sudoku.py` to your SST `/tests` directory and invoke::
 
     $ cd selenium-simple-test
