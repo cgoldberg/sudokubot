@@ -19,23 +19,20 @@ Instructions
 
 pure Selenium WebDriver version::
     
-    $ cd sudokubot
     $ python sudokubot.py
 
 SST framework version:
 
-(copy `sudokubot-sst.py` and `_sudoku.py` to your SST `/tests` directory and invoke)
-
 ::
-
-    $ cd selenium-simple-test
-    $ ./sst-run sudokubot-sst
+    $ sudo pip install -U sst
+    $ sst-run sudokubot-sst
 
 ----
 Info
 ----
 
  * http://seleniumhq.org/
+ * http://testutils.org/sst
  * https://launchpad.net/selenium-simple-test
  * http://www.websudoku.com/
  * http://norvig.com/sudoku.html
