@@ -21,9 +21,8 @@ pure Selenium WebDriver version::
     
     $ python sudokubot.py
 
-SST framework version:
+SST framework version::
 
-::
     $ sudo pip install -U sst
     $ sst-run sudokubot-sst
 
