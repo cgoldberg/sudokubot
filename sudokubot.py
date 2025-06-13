@@ -32,6 +32,7 @@ class SudokuBot:
         options = webdriver.ChromeOptions()
         options.add_argument("--disable-infobars")
         options.add_argument("--window-size=1200,800")
+        options.add_experimental_option("excludeSwitches", ["enable-logging"])
         self.driver = webdriver.Chrome(options=options)
 
     def play(self, level=4):
