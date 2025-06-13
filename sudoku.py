@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """
 Solve Every Sudoku Puzzle
@@ -174,7 +174,7 @@ class TestSudoku(unittest.TestCase):
         values = solve(grid)
 
         def unitsolved(unit):
-            return set(values[s] for s in unit) == set(digits)
+            return {values[s] for s in unit} == set(digits)
 
         return values is not False and all(unitsolved(unit) for unit in unitlist)
 

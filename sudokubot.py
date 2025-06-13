@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# Corey Goldberg - 2011-2025
+#!/usr/bin/env python
 
 
 import time
