@@ -8,9 +8,9 @@
 
 ### About:
 
-By: [Corey Goldberg][github-home]
-Code: [GitHub][github-repo]
-License: [MIT][mit-license]
+- By: [Corey Goldberg][github-home]
+- Code: [GitHub][github-repo]
+- License: [MIT][mit-license]
 
 ### Requirements:
 
